@@ -1,7 +1,28 @@
 body{
-    background-color: blue;
+    background-color: white:
 }
-
-.class link {
+header, footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293D;
+    color: white;
+}
+nav ul,  {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
     
+}
+nav li {
+    color: aqua;
+    font-weight: bold;
+    text-decoration: underline;
+}
+nav li:hover {
+    color: aliceblue;
+}
+main {
+    border-image-width: 500px;
 }
