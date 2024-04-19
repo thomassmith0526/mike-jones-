@@ -1,28 +1,69 @@
-body{
-    background-color: white:
+*{
+    background-color: lightgray;
 }
-header, footer{
+
+header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1%;
-    background-color: #13293D;
-    color: white;
+    background-color: rgb(46, 45, 45);
+    color: aqua;
 }
-nav ul,  {
+h1 {
+    background-color: #13293D;
+}
+nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+    background-color: rgb(46, 45, 45);
+    
     
 }
-nav li {
+nav a {
     color: aqua;
     font-weight: bold;
     text-decoration: underline;
+    padding: 14px 20px;
+    background-color: rgb(46, 45, 45);
 }
-nav li:hover {
+nav a:hover {
     color: aliceblue;
 }
-main {
-    border-image-width: 500px;
+header nav  {
+    flex-direction: row;
+    background-color: rgb(46, 45, 45);
+}
+main img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    
+    
+}
+ul img{
+    width: 50%;
+}
+ aside {
+    position: relative;
+    align-items: flex-start;
+    width: 70%;
+   float: right;    
+   font-size: medium;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+aside p {
+    margin: .5px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    color:#13293D;
+    
+}
+div a {
+    color: #13293D;
+    padding: 14px 20px;
+    justify-content: space-between;
 }
