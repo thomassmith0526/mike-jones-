@@ -60,7 +60,7 @@ ul img{
 
 }
  aside {
-    position: relative;
+    position: absolute;
     align-items: flex-start;
     width: 50%;
    float: right;    
@@ -70,12 +70,21 @@ ul img{
 aside p {
     margin: .5px;
 }
-figure {
-    width: 25%;
+.surf-report {
+    position: relative;
+    text-align: center;
+    color: rgb(6, 29, 87); 
+}
+.surf-report {
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    font-size: 50px;
+    background-color:orange; 
+}
+.surf-report img {
     display: flex;
-    flex-wrap: wrap;
     float: right;
-
 }
 footer {
     display: flex;
