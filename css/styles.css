@@ -49,16 +49,17 @@ header nav  {
     flex-direction: row;
     background-color: rgb(46, 45, 45);
 }
-main img {
+img {
     position: relative;
     width: 100%;
     height: 250px; 
 }
 
 
- aside {
+ span {
     position: absolute;
     align-items: flex-start;
+    text-indent: 40%;
     width: 50%;
    float: right;    
    font-size: medium;
@@ -79,8 +80,9 @@ aside p {
     font-size: 50px;
     background-color:orange; 
 }
-figure{
-    width: 50%;
+figure {
+    position: relative;
+    width: 40%;
     float: right;
     display: flex;
     flex: flex-start;
@@ -98,11 +100,15 @@ figure{
 }
 footer {
     position: absolute;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     padding: 1%;
     color:#13293D;
-   
+  
+}
+h5 {
+    font-size: 24px;
 }
 div a {
     color: #13293D;
