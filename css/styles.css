@@ -10,7 +10,10 @@ header {
     color: aqua;
 }
 h1 {
-    background-color: #13293D;
+    background-color: darkblue;
+    border-style: double;
+    border-color: black;
+    
 }
 nav ul {
     display: flex;
@@ -52,13 +55,7 @@ main img {
     height: 250px; 
 }
 
-ul img{
-    width: 50%;
-    float: right;
-    display: flex;
-    flex: flex-start;
 
-}
  aside {
     position: absolute;
     align-items: flex-start;
@@ -82,11 +79,25 @@ aside p {
     font-size: 50px;
     background-color:orange; 
 }
-.surf-report img {
-    display: flex;
+figure{
+    width: 50%;
     float: right;
+    display: flex;
+    flex: flex-start;
+}
+#cover {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+#cover > img {
+    float: right;
+    border: 2px solid black;
+  width: 45%;
+  margin: 1.66%;
 }
 footer {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     padding: 1%;
