@@ -1,113 +1,64 @@
 * {   
 background-color: lightgray;
+
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1%;
-    background-color: rgb(46, 45, 45);
-    color: aqua;
-}
-h1 {
-    background-color: darkblue;
-    border-style: double;
-    border-color: black;
+body {
     
 }
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    background-color: rgb(46, 45, 45);
+header h1 {
+    position: relative;
+    display: block;
+    background-color: aqua;
+    float: left;
+    left: 9%;
+}
+ul  {
+    position: absolute;
+    right: 5%;
+    width: 600px;
+    height: 0%;
+    font-size: 24px;
+    font-weight: 400px;
+    flex-direction: row;
     
+}
+header{
+    display: flex;
+    background-color: rgb(59, 59, 61);
+    width: 100%;
+    height: 20%;
+}
+main {
+
     
 }
 .container {
-    position: relative;
-    text-align: center;
-    color: rgb(6, 29, 87);
-}
-.bottom-right {
-    position: absolute;
-    bottom: 20px;
-    right: 200px;
-    font-size: 50px;
-    background-color:orange ;
-}
-nav a {
-    color: aqua;
-    font-weight: bold;
-    text-decoration: underline;
-    padding: 14px 20px;
-    background-color: rgb(46, 45, 45);
-}
-nav a:hover {
-    color: aliceblue;
-}
-header nav  {
-    flex-direction: row;
-    background-color: rgb(46, 45, 45);
-}
-img {
-    position: relative;
     width: 100%;
-    height: 250px; 
+    
 }
+main section {
+    margin: 10px;
+    display: flex;
+}
+main section h2{
+    text-align: end;
+    width: 20%;
+    border-right: 10px solid black;
+}
+main section p {
+    width: 70%;
+    margin-right: 10%;
 
 
- aside {
-    flex: 3;
-  background-color: #b9c6ae;
-  padding: 20px;
 }
-aside p {
-    margin: .5px;
+.big{
+    width: 70%;
+    max-height: 250px;
+    object-fit: cover;
 }
-.surf-report {
-    position: relative;
-    text-align: center;
-    color: rgb(6, 29, 87); 
-}
-.surf-report {
-    position: absolute;
-    bottom: 20px;
-    right: 200px;
-    font-size: 50px;
-    background-color:orange; 
-}
-figure {
-    position: relative;
-    width: 40%;
-    float: right;
-    display: flex;
-    flex: flex-start;
-}
-#cover {
-    width: 800px;
-    height: 800px;
-    margin: 0 auto;
-}
-#cover > img {
-    float: right;
-    border: 2px solid black;
-  width: 45%;
-  margin: 1.66%;
-}
-footer {
-    position: absolute;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1%;
-    color:#13293D;
-  
-}
-h5 {
-    font-size: 24px;
-}
-div a {
-    color: #13293D;
-    padding: 14px 20px;
-    justify-content: space-between;
+.small {
+    width: 35%;
+    object-fit: cover;
+
 }
