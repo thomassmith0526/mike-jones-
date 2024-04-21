@@ -56,14 +56,10 @@ img {
 }
 
 
- span {
-    position: absolute;
-    align-items: flex-start;
-    text-indent: 40%;
-    width: 50%;
-   float: right;    
-   font-size: medium;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ aside {
+    flex: 3;
+  background-color: #b9c6ae;
+  padding: 20px;
 }
 aside p {
     margin: .5px;
