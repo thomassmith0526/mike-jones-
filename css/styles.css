@@ -14,13 +14,14 @@ header h1 {
     
 }
 ul  {
+    display: block;
     position: absolute;
     right: -5%;
     width: 600px;
     height: 0%;
     font-size: 24px;
     font-weight: 400px;
-   
+    color: blue;
 }
 header{
     display: flex;
@@ -52,9 +53,12 @@ img {
 p {
     position: relative;
     padding-left: 8%;
-    font-size: 30px;
+    font-size: 30px;    
+}
+figure {
+    position: relative;
+    padding-left: 8%;
 
-    
 }
 main section {
     margin: 10px;
@@ -67,33 +71,89 @@ main section h2{
 }
 main section p {
     width: 70%;
+    margin-right: 13%;
+}
+main section figure {
+    width: 70%;
     margin-right: 10%;
 }
 h2 {
     position: relative;
     padding-right: 8%;
 }
+figure img {
+    border: 8px solid aqua;
+}
 .big{
-    width: 90%;
-    max-height: 200px;
-    object-fit: cover;
-    padding: 10px;
+    position: relative;
+    width: 95%;
+    max-height: 200px; 
+    filter: blur(4px);
 }
 .small {
-    width: 35%;
-    object-fit: cover;
+    position: relative;
+    width: 45%;
     padding: 10px;
-    
-
+    filter: blur(4px);    
+}
+.small2{
+    position: relative;
+    width: 45%;
+    filter: blur(4px);
+}
+.big:hover, .small:hover, .small2:hover {
+    filter: blur(0px);
+}
+.bottom-left1 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    font-size: 20px;
+    background-color: aqua;
+    border: 5px solid aqua;
+}
+.bottom-left2 {
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    font-size: 20px;
+    background-color: aqua;
+    border: 5px solid aqua;
+}
+.bottom-left3 {
+    position: absolute;
+    top: 500px;
+    left: 550px;
+    font-size: 20px;
+    background-color: aqua;
+    border: 5px solid aqua;
+}
+.bottom-left4 {
+    position: absolute;
+    top: 825px;
+    left: 150px;
+    font-size: 20px;
+    background-color: aqua;
+    border: 5px solid aqua; 
+}
+.bottom-left5 {
+    position: absolute;
+    top: 850px;
+    left: 550px;
+    font-size: 20px;
+    background-color: aqua;
+    border: 5px solid aqua;
 }
 main footer p{
     width: 70%;
     margin-right: 10%;
-    font-size: 24pt;
+    font-size: 20pt;
+    color: rgb(15, 15, 46);
+    text-decoration: underline;
     
 }
 main footer {
-    margin: 10px;
+    margin: -5px;
     display: flex;
 }
 main footer h2 {
