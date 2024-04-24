@@ -5,15 +5,17 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(59, 59, 61);
+    background-color: rgb(82, 78, 78);
     height: 100px;
+    
+        
 }
 header h1 {
     align-self: center;
     background-color: aqua;
     float: left;
     padding-left: 5%;   
-    
+    color: darkblue;
 }
 header nav {
     padding-top: 15px;
@@ -22,20 +24,27 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     margin: 20px;
+    
 }
 header nav ul  {
     display: block;
-    position: absolute;
     list-style: none;
-}
+    flex-direction: row;
+    margin-right: 200px;
+   position: relative;
+} 
 
 header nav ul li  {
-    display: inline;
     text-decoration: underline;
+    display: inline-block;
+}
+a { 
     color: aqua;
 }
+
 main {
     display: block;
+    background-color: darkgray;
 }
 img {
     width: 100%;
@@ -149,5 +158,32 @@ figure img {
     left: 500px;
     font-size: 20px;
     background-color: aqua;
-    border: 5px solid aqua;
+    border: 5px solid aqua;    
+}
+main footer {
+    margin-left: 160px;
+    display: flex;
+    
+}
+main footer h2{
+    text-align: end; 
+    width: 20%;
+    border-right: 10px solid black;
+    position: relative;
+    padding-right: 9.8%;
+}
+main footer p {
+    width: 70%;
+    margin-right: 10%;
+}
+.Contact  {
+    display: flex;
+    margin-left: -200px;
+}
+.Contact a {
+    color: darkblue;
+    font-size: 25px;
+    justify-content:flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
 }
