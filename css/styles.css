@@ -1,7 +1,4 @@
-* {   
-background-color: lightgray;
 
-}
 
 
 header h1 {
@@ -116,7 +113,7 @@ figure img {
 }
 .bottom-left2 {
     position: absolute;
-    top: 500px;
+    top: 480px;
     left: 150px;
     font-size: 20px;
     background-color: aqua;
@@ -124,7 +121,7 @@ figure img {
 }
 .bottom-left3 {
     position: absolute;
-    top: 500px;
+    top: 480px;
     left: 550px;
     font-size: 20px;
     background-color: aqua;
@@ -132,7 +129,7 @@ figure img {
 }
 .bottom-left4 {
     position: absolute;
-    top: 825px;
+    top: 750px;
     left: 150px;
     font-size: 20px;
     background-color: aqua;
@@ -140,7 +137,7 @@ figure img {
 }
 .bottom-left5 {
     position: absolute;
-    top: 850px;
+    top: 750px;
     left: 550px;
     font-size: 20px;
     background-color: aqua;
